@@ -5,6 +5,7 @@ webpack 是一种前端资源构建工具，一个静态模块打包器(module b
 它将根据模块的依赖关系进行静态分析，打包生成对应的静态资源(bundle)。
 
 处理好的资源输出出去叫bundle
+
 chunk -- 代码块
 
 ## webpack 五个核心概念
@@ -16,7 +17,7 @@ chunk -- 代码块
   输出(Output)指示webpack打包后的资源bundles输出到哪里去，以及如何命名。
 
 3. Loader
-  Loader让webpack能够去处理那些非JavaScript文件(webpack 自身只理解JavaScript)
+  Loader让webpack能够去处理那些非JavaScript文件(webpack自身只理解JavaScript)
 
 4. Plugins
   插件(Plugins)可以用于执行范围更广的任务。插件的范围包括，从打包优化和压缩，一直到重新定义环境中的变量等。
